@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffebee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="232dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@id/search2"
+
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Search or type web address"
+        tools:ignore="InvalidId">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/search2"
+        android:background="#3700B3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="88dp"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/home"
+        android:background="#03DAC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Home" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="0dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:background="?android:attr/listDivider" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
+
+
+</RelativeLayout>
