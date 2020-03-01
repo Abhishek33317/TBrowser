@@ -1,2 +1,2 @@
 # TBrowser
-Contain code java and xml file . 
+Contains code of java and xml file . 
